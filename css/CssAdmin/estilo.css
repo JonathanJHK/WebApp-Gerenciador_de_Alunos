@@ -1,0 +1,41 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+*{ padding:0px; margin:0px;}
+#centro{ width:85%; margin:0 auto; background:#FFF; border:1px solid #666; overflow:auto;}
+#centro #topo{ width:99.5%; background:#999; font:16px Arial, Helvetica, sans-serif; color:#333; padding:0px 5px; margin-bottom:0px;}
+#centro #topo #sair{ float:right; width:80%; text-align:right;}
+#sair a{ color:#063; text-decoration:none;}
+#sair a:hover{ text-decoration:underline;}
+
+#centro #conteudo{ width:100%; border-top:1px solid #666; overflow:auto;}
+#centro #conteudo #esq{ float:left; width:95%;}
+#centro #conteudo #dir{ margin:auto; width:95%; overflow:auto;}
+#centro #conteudo #dir h2{ font:20px Arial, Helvetica, sans-serif; #C63; border-bottom:1px dashed #666; padding-bottom:10px; margin-bottom:20px;}
+#centro #conteudo #dir p{font:14px Arial, Helvetica, sans-serif; color:#666;}
+
+#menu{ width:250px; overflow:auto; background:#999;margin-left:150px;padding: 20px 30px;margin-bottom: 10px}
+ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;}
+ul li{float: left;border-right: 1px solid #bbb;}
+ul li a{color: white; padding: 14px 16px;display:block; padding:8px 0px; width:250px; text-align:center; font:15px Arial, Helvetica, sans-serif; color:#FFF; font-weight:bold; text-decoration:none;}
+ul li a:hover{ background:#09C;}*/
+
+/*Dentro do site*/
+#centro #conteudo #dir #msgs{ width:100%; margin:0 auto; background:#CCC; overflow:auto; margin-bottom:10px}
+#centro #conteudo #dir #msgs h3{ font:15px Arial, Helvetica, sans-serif; color:#333;}
+#centro #conteudo #dir #msgs p{ font:14px Arial, Helvetica, sans-serif; color:#666;}
+#centro #conteudo #dir #msgs .lk{ text-decoration:none; color:#900;}
+#centro #conteudo #dir #msgs .lk:hover{ text-decoration:underline;}
+#centro #conteudo #dir #msgs .lk2{ text-decoration:none; color:#093;}
+#centro #conteudo #dir #msgs .lk2:hover{ text-decoration:underline;}
+#centro #conteudo #dir #msgs span{ font:16px Arial, Helvetica, sans-serif; color:#333;}
+
+footer {display: block; width:85%; margin:0 auto; background:#333; text-align:center; color:#CCC; height:30px; padding-top:8px;}
+
+
+
+/*PAGINAÇÃO*/
+.paginacao{ float:left; height:40px; margin-top:15px;}
+.paginacao a{ padding:5px 8px; background:#333; color:#FFF; margin-right:2px; text-decoration:none;}
+.paginacao a:hover{ background:#666; cursor:pointer;}
+.paginacao .pgSel{ display:inline; color:#FFF; padding:5px 8px; background:#666; margin-right:2px;}

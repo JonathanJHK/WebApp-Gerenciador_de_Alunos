@@ -1,0 +1,66 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    }
+
+caption{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 2px ridge black;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 6px;
+}
+
+table#t01 th{
+    background-color: #CCC;
+    
+}
+table#t01 tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+table#t01 tr:hover{background-color:#b3e5fc}
+
+h1{
+    color: #95b3d7;
+    text-shadow: 2px 2px black;
+    border-bottom: solid red;
+}
+
+div#centro{
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    margin-top: 3em;
+    flex: 1 0 auto;
+  }
+
+ul#slide-out  {
+    border-left:3px groove cornflowerblue;
+}
+
+
+#slide-out li a:not(.active) {
+   
+    border-bottom: 2px solid #bbb;
+    
+}
+
+#slide-out li a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
+}
